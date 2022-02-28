@@ -32,14 +32,6 @@ $ yarn start
 
 <br>
 
-## 😎 팀원
-
-| [김지영(팀장)](https://github.com/Jeong-jeong)| [고병표](https://github.com/kokoball)| [유제호](https://github.com/ludacirs)| [홍수연](https://github.com/suyeon-hong)|
-| --- | --- | -- | -- |
-| <img src="https://user-images.githubusercontent.com/68528752/153546074-abd9a7df-771c-4f14-8a2f-a77246210b1c.jpeg" width="400px"/> | <img src="https://user-images.githubusercontent.com/68528752/153546140-b58f43fe-4730-46ca-bfda-0b048f36d24f.JPG" width="400px"/> | <img src="https://user-images.githubusercontent.com/68528752/153545718-c688e091-53a3-4e30-97fd-a2f00ab97aa8.JPG" width="400px"> | <img src="https://user-images.githubusercontent.com/68528752/153545721-ecc413f4-9d1b-45e0-9909-423c27128b1c.jpeg" width="400px"> |
-
-<br>
-
 ## 🔥 프로젝트 과정 소개
 
 | [정보 공유](https://www.notion.so/5520df8322e549ebb29b4528de020d52)| [반복 최소화](./styles/font.ts)|
@@ -50,7 +42,9 @@ $ yarn start
 <br>
 
 
-## 🏗 프로젝트 설계
+## ✨ 구현 사항 목록 
+-    `Typescript` 사용
+-    apis, base, domain, hooks, pages, styles, types, utils 으로 프로젝트 구조를 나눠 재사용에 용이하게 개발
 
 #### 1. 검색 기능 debounce 적용
 - [x] 콜백 함수의 불필요한 실행을 줄여주기위해 검색 기능에 `debounce` 적용
@@ -68,32 +62,8 @@ $ yarn start
 - [x]  대소문자 구분 x
 - [x]  제품명, 브랜드명 으로 필터링 한 뒤 리스트 병합
 
-#### 6. 검색 기록 제공
-- [ ] 검색창 클릭 시 하단에 이전 검색 기록이 제공되도록 설계<br> 이전에 검색했던 상품을 확인할 수 있어 자주 구매하는 상품을 빠르게 확인 및 검색 가능
-
-
-<br>
-<br>
-
-
-### 📝 기능 목록 명세
-
-#### ✔ 김지영
-
-- `Pagination` 컴포넌트 구현
-  - 페이지 가장끝과 앞으로 이동하는 기능 구현
-  - 필요한 데이터만 slice로 잘라서 보여주는 기능 구현
-
-#### ✔ 고병표
-
-- `Header`, `ItemBox` 구현
-- `MainBox`, `ItemBrandBtn` 구현
-- `검색 기능` 및 `Filter` 로직 구현
-
-#### ✔ 홍수연
-
-- `TagList`, `Input`, `ResetBtn` 컴포넌트 구현
-- `Main` 컴포넌트에 domain 컴포넌트 병합 및 UI 수정
+#### 5. Pagination 기능 
+- [x] 페이지 가장끝과 앞으로 이동하는 기능 구현, 필요한 데이터만 slice로 잘라서 보여주는 기능 구현
 
 
 <br>
